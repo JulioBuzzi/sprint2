@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('/assets/data/julio.json')
+    fetch('../assets/data/julio.json')
         .then(response => response.json())
         .then(data => {
             const problemButton = document.querySelector("button.problem");
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <div class="container">
                                     <h1>O problema</h1>
                                     <p>${data.problema.replace(/\n/g, '<br>')}</p>
-                                    <img class="money" src="/assets/images/dolar.jpeg" alt="Dinheiro subindo">
+                                    <img class="money" src="../assets/images/dolar.jpeg" alt="Dinheiro subindo">
                                 </div>
                             </body>
                         </html>
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <div class="container">
                                     <h1>A solução</h1>
                                     <p>${data.solucao.replace(/\n/g, '<br>')}</p>
-                                    <img class="lupa" src="/assets/images/LupaPagInicial.jpeg" alt="Lupa com gráfico">
+                                    <img class="lupa" src="../assets/images/LupaPagInicial.jpeg" alt="Lupa com gráfico">
                                 </div>
                             </body>
                         </html>
