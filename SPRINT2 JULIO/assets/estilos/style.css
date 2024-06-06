@@ -10,75 +10,53 @@
 }
 /* Configurações Gerais - Final */
 
+header {
+    background-color: green;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 20vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul.cabecalho {
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 40px;
+}
+
+ul.cabecalho li {
+    font-size: 48px;
+}
+
+ul.cabecalho li a{
+    color: black;
+    text-decoration: none;
+}
 
 
+.logo {
+    width:15%; 
+    height: auto; 
+    border-radius: 35%;
+}
 
+.menucadastro:hover, .menuconfig:hover, .menulogin:hover {
+    text-decoration: underline;
+}
 
-
-/* Cabeçalho */
-
-
-    header{
-        background-color:green;
-        width: 100%;
-        z-index:1000;
-        top:0;
-        left:0;
-    }
-
-
-    nav{
-        display: flex;
-        align-items: center;
-        padding: 2%;
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    ul.cabecalho{
-        display:flex;
-        justify-content: end;
-        list-style-type: none;
-        text-decoration: none;
-        align-items: center;
-    }
-
-
-    li.menu{
-        text-decoration: none;
-        margin-left:50%;
-    }
-
-
-    .logo{
-        width: 100%;
-        border-radius: 35%;
-    }
-
-    .menu{
-        display: flex;
-        margin-left: 55%;
-        margin-top: 2.5%;
-        justify-content: space-between;
-        align-items: center;
-        width: 30%;
-        height: 30%;
-        font-size: 175%;
-        color:black;
-    }
-
-    .menu a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .menu li{
-        list-style: none;
-    }
-
-    .menucadastro:hover, .menuconfig:hover, .menulogin:hover{
-        text-decoration: underline;
-    }
 
 /* Cabeçalho Final */
 
@@ -153,7 +131,7 @@ img.lupa{
     margin: 5% auto; 
 }
 
-/* Mantenha o restante do seu CSS */
+
 
 
 
@@ -255,7 +233,7 @@ img.contato1{
 /* main Final */
 
 /* Rodapé Inicio */
-
+/*
 footer{
     background-color: green;
     color:white;
@@ -273,7 +251,7 @@ footer a{
 footer a:hover{
     font-style: italic;
     color: white;
-}
+}*/
 
 .title-button {
     background: none;
@@ -409,501 +387,3 @@ footer a:hover{
 
 
 
-/*GABRIEL - INÍCIO
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*Corpo geral*/
-
-
-.bodygabriel{
-    background-color: #9BD56D;
-}
-
-/*Cabeçalho específico Gabriel*/
-
-.headermayer{
-    background-color:green;
-    width: 100%;
-    position: inherit;
-}
-
-.logolinkmayer{
-    width: 8%;
-}
-
-.logomayer{
-    width: 100%;
-    border-radius: 35%;
-}
-
-.menumayer{
-    display: flex;
-    margin-left: 82%;
-    margin-top: 2%;
-    justify-content: space-between;   
-    font-size: 200%;
-    color:black;
-}
-
-.menumayer a{
-    text-decoration: none;
-    color: black;
-    width: 100%;
-}
-
-.menuconfigmayer{
-    list-style: none;
-    width: 100%;
-}
-
-.menuconfigmayer:hover{
-    text-decoration: underline;
-}
-
-/*Resultado geral*/
-
-#resumobox{
-    margin: 2% 5%;
-    text-align: center;
-}
-
-#resultbox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2% 5%;
-    border-radius: 3%;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-#resultitle{
-    margin: auto;
-    text-align: center;
-    
-}
-
-/*Gráfico 1*/
-
-    #graf1box{
-        width: 33%;
-        margin-bottom: 1%;
-    }
-
-    #graf1box h3 {
-        width: 300px;
-    }
-
-    #pie-chart1{
-        margin: auto;
-    }
-
-/*Gráfico 2*/
-
-    #graf2box{
-        width: 33%;
-        margin-bottom: 1%;
-    }
-    
-    #graf2box h3 {
-        width: 300px;
-    }
-
-    #pie-chart2{
-        margin: auto;
-    }
-
-/*Mensagem*/
-
-    #messagebox{
-        width: 33%;
-        justify-content: center;
-    }
-
-    #message{
-        margin: 32% 5%;
-    }
-    
-
-/*Sugestões*/
-
-    
-
-    #sugesttitle{
-        background-color: white;
-        margin-bottom: 0;
-        border-radius: 5%;
-        text-align: center;
-    }
-    #sugestbox{
-        margin: 1% 5%;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        border-radius: 3%;
-    }
-    
-    .card:hover{
-       background-color: lightgray;
-       
-    }
-    
-    .linksugest{
-        text-decoration: none;
-        color: inherit;
-    }
-    .linksugest:hover{
-        text-decoration: underline;
-        font-style: italic;
-    }
-
-
-    /*MEDIA QUERY GABRIEL*/
-    @media (max-width: 950px) { 
-        
-        /*Cabeçalho  específico Gabriel*/
-
-        .headermayer{
-            background-color:green;
-            width: 100%;
-        }
-        
-        .logolinkmayer{
-            width: 17.5%;
-            margin: auto;
-        }
-        
-        .logomayer{
-            width: 100%;
-            border-radius: 35%;
-        }
-        
-        .menumayer{
-            display: flex;
-            margin-left: 65%;
-            margin-top: 2%;
-            justify-content: space-between;   
-            font-size: 200%;
-            color:black;
-        }
-        
-        .menumayer a{
-            text-decoration: none;
-            color: black;
-            width: 100%;
-        }
-        
-        .menuconfigmayer{
-            list-style: none;
-            width: 100%;
-        }
-        
-        .menuconfigmayer:hover{
-            text-decoration: underline;
-        }
-
-
-        /*Corpo geral*/
-        .bodygabriel{
-            background-color: #9BD56D;
-        }
-        
-        /*Resultado geral*/
-        
-        #resumobox{
-            margin: auto; 
-            margin: 1% 5%;           
-        }
-        
-        #resultbox{
-            display: block;
-            
-            margin: 2% 5%;
-        }
-        
-        #resultitle{
-            margin: auto;
-            text-align: center;
-            box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
-        }
-        
-        /*Gráfico 1*/
-        
-            #graf1box{
-                width: 100%;
-            }
-        
-            #graf1box h3 {
-                width: 300px;
-            }
-        
-            #pie-chart1{
-                margin: auto;
-            }
-        
-        /*Gráfico 2*/
-        
-            #graf2box{
-                width: 100%;
-            }
-            
-            #graf2box h3 {
-                width: 300px;
-            }
-        
-            #pie-chart2{
-                margin: auto;
-                
-            }
-        
-        /*Mensagem*/
-        
-            #messagebox{
-                width: 100%;
-                
-            }
-        
-            #message{
-                margin: 5% 5%;
-                text-align: center;
-                font-weight: bolder;
-            }
-            
-        
-        /*Sugestões*/
-        
-            
-        
-            #sugesttitle{
-                background-color: white;
-            }
-            #sugestbox{
-                margin: 1% 5%;
-                background-color: white;
-            }
-
-            .card:hover{
-                background-color: lightgray;
-            
-            }
-            
-            .linksugest{
-                text-decoration: none;
-                color: inherit;
-            }
-            .linksugest:hover{
-                text-decoration: underline;
-                font-style: italic; 
-            }
-        
-            /*Rodapé*/
-            #footermayer{
-                display: inherit;
-            }
-        }
-
-/*GABRIEL - FIM
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-
-/*SAMUEL - INÍCIO
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
-#log {
-    width: 60%;
-}
-
-
-.configuracoes {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.configuracoes h1 {
-    margin-bottom: 20px;
-}
-
-.configuracoes .buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.configuracoes .config-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    margin-bottom: 20px; 
-}
-
-.configuracoes .config-btn:hover {
-    background-color: #0056b3;
-}
-
-
-
-/*SAMUEL - FIM
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*MATEUS - INÍCIO
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-form {
-    background-color: #fff;
-    padding: 2rem;
-    border: #333;
-    border-radius: 0.8rem;
-    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
-    width: 80%;
-    max-width: 60rem;
-    position: absolute;
-    left:13% ;
-    font-family: 'Roboto', sans-serif;
-}
-
-#cabeçalho {
-    text-align: center;
-    color: #333;
-    margin-bottom: 2rem;
-}
-
-label {
-    font-weight: bold;
-}
-
-select,
-input[type="number"],
-input[type="text"] {
-    width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-    border: 0.1rem solid #ccc;
-    border-radius: 0.4rem;
-    box-sizing: border-box;
-}
-
-button {
-    padding: 0.8rem 1.2rem;
-    background-color: #9BD56D;
-    color: #fff;
-    border: none;
-    border-radius: 0.4rem;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #A1E9C2;
-}
-
-#btnEnv{
-    padding: 0.8rem 1.2rem;
-    background-color: #9BD56D;
-    color: #fff;
-    border: none;
-    border-radius: 0.4rem;
-    cursor: pointer;
-}
-#btnEnv:hover {
-    background-color: #A1E9C2;
-}
-
-/*MATEUS - FIM
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*RASSI - INÍCIO
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #079804;
-    color: #fff;
-}
-
-
-nav{
-display: flex;
-flex-direction: row;
-padding: 1%;
-width: 100%;
-}
-
-.logolink{
-width: 8%;
-}
-
-.logo{
-width: 20%;
-border-radius: 60%;
-}
-
-.menu{
-display: flex;
-margin-left: 55%;
-margin-top: 2.5%;
-justify-content: space-between;
-align-items: center;
-width: 30%;
-height: 30%;
-font-size: 175%;
-color:black;
-}
-
-.menu a{
-text-decoration: none;
-color: black;
-}
-
-.menu li{
-list-style: none;
-}
-
-.menucadastro:hover, .menuconfig:hover, .menulogin:hover{
-text-decoration: underline;
-}
-#tabelaGastos {
-width: 100%;
-border-collapse: collapse;
-margin-top: 1em;
-}
-
-#tabelaGastos th, #tabelaGastos td {
-border: 1px solid #ccc;
-padding: 0.5em;
-text-align: left;
-}
-
-#tabelaGastos th {
-background-color: #f0f0f0;
-}
-
-/*RASSI - FIM
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
