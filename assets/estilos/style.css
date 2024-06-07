@@ -1,0 +1,416 @@
+/*JULIÃO - INÍCIO
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Configurações Gerais - Inicio */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Configurações Gerais - Final */
+
+header {
+    background-color: green;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 20vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul.cabecalho {
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    gap: 40px;
+}
+
+ul.cabecalho li {
+    font-size: 48px;
+}
+
+ul.cabecalho li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo {
+    width:15%; 
+    height: auto; 
+    border-radius: 35%;
+}
+
+.menucadastro:hover, .menuconfig:hover, .menulogin:hover {
+    text-decoration: underline;
+}
+
+
+/* Cabeçalho Final */
+
+/* main Inicio */
+
+main#mainjulio{
+    background-color: #9BD56D;
+}
+
+h1.problem{
+    margin-left: 8%;
+    margin-bottom: 1.5%;
+    font-size: 300%;
+    margin-top:4%;
+}
+
+
+.problem{
+    margin-left:10%;
+    font-size:150%;
+}
+
+div.first{
+    display:flex;
+    justify-content: space-between;
+}
+
+div.text{
+    display:block;
+}
+
+img.money{
+    margin-top:4%;
+    margin-right:10%;
+    margin-bottom:4%;
+    border:0.2em solid green;
+    width:40%;
+    height:80%;
+}
+
+img.lupa{
+    margin-top:4%;
+    margin-bottom:4%;
+    border:0.3em solid green;
+    height:80%;
+    width:40%;
+    margin-right:50%;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container h1 {
+    margin-bottom: 0.5em;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.container img {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 4%;
+    margin: 5% auto; 
+}
+
+
+
+
+
+
+
+
+h1.solucao{
+    margin-right: 15%;
+    margin-bottom: 1.5%;
+    font-size: 300%;
+    margin-top:10%;
+}
+
+div.second{
+    display:flex;
+    justify-content: space-between;
+}
+
+p.solucao{
+        font-size:150%;
+        margin-right:5%;
+}
+
+h1.equipe{
+    margin-top: 40%;
+}
+
+
+ol.aluno{
+    margin-left: 15%;
+    margin-top:2%;
+    font-size:150%;
+}
+
+li.aluno{
+    margin-top: 2%;
+    
+}
+
+.third{
+    display:flex;
+    justify-content: space-between;
+}
+
+.third2{
+    display:block;
+
+}
+
+
+img.equipe{
+    margin-right:15%;
+    margin-bottom:5%;
+    border: 0.3em solid green;
+    margin-top:5%;
+    width:40%;
+    height:100%;
+}
+
+h1.sobrenos{
+    margin-left:22%;
+    margin-top:0.5%;
+    font-size:xx-large;
+}
+
+p.sobrenos{
+    margin-left:22%;
+    margin-top:3%;
+    font-size:x-large;
+    margin-bottom:5%;
+}
+
+div.four{
+    display:flex;
+    justify-content: space-between;
+}
+
+div.contato{
+    margin-right:5%;
+    font-size:large;
+    margin-top:1%;
+    margin-left:20%;
+}
+
+img.contato, .contato1 {
+    height: 30%;
+    width: 15%;
+    margin-top:2%;
+}
+
+div.contatos{
+    display:inline;
+    margin-left:3%;
+}
+
+img.contato1{
+    margin-right:5%;
+}
+/* main Final */
+
+/* Rodapé Inicio */
+/*
+footer{
+    background-color: green;
+    color:white;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: center;
+    font-size: 100%;
+    padding: 1%;
+}
+
+footer a{
+    color: inherit;
+}
+
+footer a:hover{
+    font-style: italic;
+    color: white;
+}*/
+
+.title-button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    text-align: left;
+}
+.title-button:hover {
+    color: darkgreen;
+    text-decoration: underline;
+}
+.hidden {
+    display: none;
+}
+
+
+
+
+/* Rodapé Final */
+
+/* Media Queries */
+
+@media (max-width: 950px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: green;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .logo {
+        width: 20%;
+        margin-left: 10px;
+    }
+
+    ul.cabecalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+    }
+
+    li.menu {
+        margin: 0 10px;
+        display: inline-block;
+    }
+
+    li.menu:nth-child(3) {
+        display: none;
+    }
+
+    .menu a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+        display: block;
+        padding: 10px;
+    }
+
+    body {
+        padding-top: 30%; 
+    }
+
+    main#mainjulio {
+        padding: 5% 5%;
+        margin-top: 0;
+    }
+
+    h1.problem {
+        margin-top: 20%;
+        font-size:2rem;
+    }
+
+    
+    h1.solucao,
+    h1.equipe,
+    h1.sobrenos,
+    h1.contato {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .problem,
+    p.solucao,
+    p.sobrenos {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    div.first,
+    div.second,
+    div.third2,
+    div.four {
+        display: block;
+        width: 100%;
+    }
+
+    div.text,
+    div.text2,
+    ol.aluno,
+    div.sobre,
+    div.contato {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    img.money,
+    img.lupa {
+        width: 30%;
+        margin: 5% auto;
+        display: block;
+    }
+
+    img.equipe {
+        display: none;
+    }
+
+    img.contato,
+    img.contato1 {
+        width: 20%;
+        margin: 5% auto;
+        display: block;
+    }
+
+    div.contatos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+   
+
+
+
+
+/*JULIÃO - FINAL
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
